@@ -1,0 +1,42 @@
+#text {
+    transition: .4s;
+    user-select: none;
+    cursor: pointer;
+    &:hover {
+        font-size: 40px;
+    }
+}
+
+.box-card {
+    width: 650px;
+    height: 350px;
+
+    .image-style {
+        width: 100%;
+        height: 100%;
+    }
+
+    .text-card {
+        text-align: justify;
+    }
+}
+
+.box-position {
+    margin-top: 240px;
+}
+
+.box-text {
+    margin-top: 200px;
+}
+
+.picture-car {
+    width: 513px;
+    height: 288px;
+}
+.scale1{
+    scale: 0;
+    transition: .5s;
+}
+.scale {
+    scale: 1;
+}

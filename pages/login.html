@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/bootstrap/bootstrap/bootstrap/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <script src="../assets/bootstrap/bootstrap/bootstrap/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="../assets/script/login.js" defer></script>
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <title>login</title>
+</head>
+<body class="body-login">
+    <div class="container">
+        <!-- <div>
+            <button id="btn-login" class="btn btn-outline-secondary circle">dark</button>
+        </div> -->
+        <div class="row justify-content-center align-items-center vh-100">
+            <div class="col-md-5 border shadow rounded color-login">
+                <form  class="m-3">
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="password">
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <button  id="btn-submit" type="submit" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">Submit</button>
+                    </div>
+                  </form>
+            </div>
+        </div>
+    </div>
+
+  <!-- Modal -->
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header bg-dark ">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body bg-dark">
+          ...
+        </div>
+        <div class="modal-footer d-flex justify-content-center bg-dark">
+          <button id="btn-close" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>

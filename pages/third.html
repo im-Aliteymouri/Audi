@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/bootstrap/bootstrap/bootstrap/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <script src="../assets/bootstrap/bootstrap/bootstrap/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="../assets/script/script3.js" defer></script>
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <title>buy</title>
+</head>
+<body class="bg-dark">
+    <div class="container">
+        <div class="row  justify-content-center align-items-center vh-100 ">
+            <div class="col-md-5 col-sm-12 border shadow rounded">
+                <form class="m-3">
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label text-light">Model:</label>
+                      <select class="form-select" aria-label="Default select example" id="model">
+                        <option selected value="4">Open this select menu</option>
+                        <option value="1">AUDI Rs7</option>
+                        <option value="2">AUDI A6</option>
+                        <option value="3">AUDI Q5</option>
+                      </select>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label text-light">color:</label>
+                      <select class="form-select" aria-label="Default select example" id="color">
+                        <option selected value="6">Open this select menu</option>
+                        <option value="1">black</option>
+                        <option value="2">white</option>
+                        <option value="3">blue</option>
+                        <option value="4">red</option>
+                        <option value="5">gray</option>
+                      </select>
+                    </div>
+                    <div class="mb-3 ">
+                        <label for="exampleInputPassword1" class="form-label text-light">Installment period:</label>
+                        <select class="form-select" aria-label="Default select example" id="insatllment">
+                          <option selected value="4">Open this select menu</option>
+                          <option value="1">6 month</option>
+                          <option value="2">12 month</option>
+                          <option value="3">36 month</option>
+                        </select>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <button id="btn-buy" type="submit" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#modal">Submit</button>
+                    </div>
+                    <div class="d-flex">
+                      <label class="text-light" for="">TotalPrice:</label>
+                      <div id="container"></div>
+                    </div>
+                  </form>
+            </div>
+          </div>
+        </div>
+
+    <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header bg-dark ">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body bg-dark">
+            ...
+          </div>
+          <div class="modal-footer d-flex justify-content-center bg-dark">
+            <button id="btn-mission" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
